@@ -48,7 +48,7 @@
     </div>
     <h2>Listado de Bebidas</h2>
     <?php
-$archivo="arestaurant.json";
+$archivo="acafeteria.json";
 //Nombre del archivo
 $archivoAbierto=fopen($archivo,"r");
 //Abro el archivo en modo lectura(r) si el archivo no existe devuelve false
@@ -65,7 +65,7 @@ foreach($resultado as $orden){
 }
 ?>     
 <?php
-$archivo="arestaurantbebidas.json";
+$archivo="acafeteriabebidas.json";
 //Nombre del archivo
 $archivoAbierto=fopen($archivo,"r");
 //Abro el archivo en modo lectura(r) si el archivo no existe devuelve false
